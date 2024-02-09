@@ -1,0 +1,88 @@
+ body{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background: linear-gradient(40deg, #1d2325,#1d2325);
+    margin-top: 10%;
+ }
+.head{
+    height: 250px;
+    width: 100px;
+    background: linear-gradient(50deg, #0a0a0a, #3a4452);;
+    border: 5px solid rgb(5, 5, 3);
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px lightblue;
+}
+
+.red{
+    border-radius: 25px;
+    background-color: rgb(236, 16, 16);
+    color: red;
+    height: 20%;
+    width: 50%;
+    border: 2px solid rgb(155, 0, 0);
+    margin-top: 25%;
+    box-shadow:0px 3px 5px rgb(240, 87, 87);
+    animation: coloranimation 2s linear 3s infinite normal;
+    
+}
+
+@keyframes coloranimation {
+    from{
+        background-color: #0a0a0a;}
+    to{
+        background-color: red;
+    }    
+
+}
+
+.green{
+    border-radius: 25px;
+    background-color: rgb(0, 199, 17);
+    color: green;
+    height: 20%;
+    width: 50%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    border: 2px solid rgb(0, 150, 20);
+    box-shadow:0px 3px 5px rgb(112, 238, 95);
+    animation: greenanimation 2s linear 1s infinite normal;
+
+}
+
+@keyframes greenanimation {
+    from{
+        background-color: #0a0a0a;}
+    to{
+        background-color:green;
+    }    
+}
+
+
+.yellow{
+    border-radius: 25px;
+    background-color: rgb(214, 214, 2);
+    color: yellow;
+    height: 20%;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 25%;
+    border: 2px solid rgb(213, 228, 2);
+    box-shadow:0px 3px 5px rgb(241, 221, 106);
+    animation: yellowanimation 2s linear 3s infinite normal;
+    
+
+}
+
+@keyframes yellowanimation {
+    from{
+        background-color: #0a0a0a;}
+    to{
+        background-color: yellow;
+    }    
+}
